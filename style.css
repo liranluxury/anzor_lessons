@@ -1,0 +1,146 @@
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.block,
+.block2,
+.block3,
+.block4,
+.block5 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 800px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #99e499;
+}
+.block2 {
+  column-gap: 30px;
+  background-color: #e4d129;
+}
+.block4 {
+  background-color: #f388d3;
+}
+.block6,
+.block7 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 800px;
+  height: 300px;
+  background-color: #e9f89c;
+  padding: 40px;
+}
+.block7 {
+  background-color: #9ce6f8;
+}
+.link {
+  display: block;
+  margin-bottom: 20px;
+  color: #b52295;
+  font-family: sans-serif;
+ 
+}
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18;
+  margin-bottom: 15px;
+  color: #b52295;
+}
+
+.btn_clickme {
+  margin: 120px 300px;
+  display: inline-block;
+  font-size: 20px;
+
+  padding: 12px 23px;
+  border: 1px solid #0c8f24;
+  border-radius: 4px;
+  background-color: #428a42;
+  color: #fff;
+
+  &:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 3px #213e21;
+    background-color: #99e499;
+    color: #213e21;
+    transition: transform 0.3s ease;
+  }
+  &:active {
+    position: relative;
+    top: 2px;
+  }
+}
+.btn_color,
+.btn_hide {
+  padding: 12px 23px;
+  border: 1px solid #4715de;
+  border-radius: 4px;
+  color: #fff;
+}
+.btn_hide {
+  background-color: rgb(166, 22, 209);
+}
+.none {
+  background-color: #fff;
+}
+.btn_color:hover,
+.btn_hide:hover {
+  transform: scale(1.07);
+  transition: transform 0.3s ease;
+  box-shadow: 1px 1px 1px #1a4a8c;
+}
+.btn_color:active,
+.btn_hide:active {
+  position: relative;
+  top: 2px;
+}
+.btn_color.color_1 {
+  background-color: #9c57f0;
+}
+.btn_color.color_2 {
+  background-color: #f07b57;
+}
+.btn_color.color_3 {
+  background-color: #f057a6;
+}
+.form {
+  display: flex;
+  width: 600px;
+  height: 200px;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 20px 40px;
+}
+#name,
+#email {
+  width: 250px;
+  height: 30px;
+  border: 1px solid #b8b8b8;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+#message {
+  width: 250px;
+  height: 60px;
+  border: 1px solid #b8b8b8;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+#send {
+  padding: 10px 110px;
+  border-radius: 5px;
+  background-color: #e0dddd;
+}
+#send:hover {
+  color: #428a42;
+  background-color: #e3fbe3;
+  box-shadow: 0 0 5px #83a97694;
+}
+#send:active {
+  position: relative;
+  top: 2px;
+}
